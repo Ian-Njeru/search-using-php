@@ -12,7 +12,7 @@
   <input type="submit" value="Search"/>
 </form>
 <?php 
-include("searchScript.php");
+include "searchScript.php";
 ?>
 </body>
 </html>
