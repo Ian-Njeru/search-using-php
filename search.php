@@ -6,7 +6,7 @@
 
 <body>
 
-<form method = "post" action ="search.php">
+<form method = "post" action ="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <label for = "search">Search</label>
 <input type = "search" name = "search" id = "search">
   <input type="submit" value="Search"/>
